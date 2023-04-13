@@ -1,0 +1,142 @@
+*{
+    background: #E5E5E5;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+
+.logo__Alura img{
+    width: 31.09px;
+    height: 48px;
+    margin-left: 50px;
+    padding: 40px;
+}
+
+.text{
+    padding-bottom: 100px;
+    font-size: 22px;
+    margin-bottom: 50px;
+    margin-left: 300px;
+    width: 577;
+    display: flex;
+    vertical-align: top;
+    border: 0;
+    outline: none;
+    color: rgba(10, 56, 113, 1);
+
+}
+
+.text::placeholder{
+    color: rgba(10, 56, 113, 1);
+}
+
+
+.warnings{
+    size: 12px;
+    color: rgba(73, 80, 87, 1);
+    display: flex;
+    align-items: center;
+    margin-left: 70px;
+    position: absolute;
+    bottom: 150px;
+}
+
+.warnings img{
+    height: 20px;
+    width: 20px;
+    margin-right: 5px;
+}
+
+.buttons{
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 200px;
+}
+
+.button__Encrypt{
+    color: rgba(255, 255, 255, 1);
+    background: rgba(10, 56, 113, 1);
+    border-radius: 24px;
+    width: 328px;
+    height: 64px;
+    margin-right: 40px;
+    margin-left: 40px;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+.button__Encrypt:hover{
+    color:white;
+    background: #44197E;
+}
+
+.button__Decrypt{
+    background: rgba(216, 223, 232, 1);
+    color: rgba(10, 56, 113, 1);
+    border-radius: 24px;
+    width: 328px;
+    height: 64px;
+    border: 1px solid rgba(10, 56, 113, 1);
+    cursor: pointer;
+    font-size: 15px;
+}
+
+.button__Decrypt:hover{
+    color:white;
+    background: #44197E;
+}
+
+.show__Text{
+    position: absolute;
+    left: 1000px;
+    top: 40px;
+    margin-top: 10px;
+    border-radius: 24px;
+    background: #E3F2F7 ;
+    width: 328px;
+    height: 64px;
+    border: 1px solid rgba(10, 56, 113, 1);
+    box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+    border-radius: 32px; 
+    height: 550px;
+}
+
+.show__Text p{
+    background: none;
+    padding: 20px;
+}
+
+.button__Copy{
+    position: absolute;
+    top: 450px;
+    left: 65px;
+    background: rgba(216, 223, 232, 1);
+    color: rgba(10, 56, 113, 1);
+    border-radius: 24px;
+    width: 200px;
+    height: 64px;
+    border: 1px solid rgba(10, 56, 113, 1);
+    cursor: pointer;
+}
+
+.button__Copy:hover{
+    color:white;
+    background: #44197E;
+}
+
+
+.credits{
+    size: 12px;
+    color: rgba(73, 80, 87, 1);
+    margin-top: 35px;
+    margin-left: 60px;
+}
+
+.information{
+    display: flex;
+    justify-content: center;
+}
+
+.information img{
+    margin: 20px;
+    width: 40px;
+    height: 40px;
+}
